@@ -1,0 +1,12 @@
+.timeFrame{
+    height: 80px;
+    padding: 12px;
+    background-color: #fff;
+}
+.datePick{
+    border: 1px solid lightblue;
+    padding: 6px;
+}
+.selectCourse{
+    margin-left: 24px;
+}

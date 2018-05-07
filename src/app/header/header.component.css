@@ -1,0 +1,23 @@
+.header-component{
+    height: 80px;
+    background-color: #EEE;
+}
+.header-component .search{
+    width: 60%;
+}
+.header-component .userImag{
+    height: 60px;
+    width: 40px;
+    background-color: blue;
+    color: blue;
+    border-radius: 50%;
+}
+.welcomeHead{
+    height: 120px;
+    background-color: #2da3f7;
+    padding: 26px;
+    color: #FFF;
+}
+.welcomeHead img{
+    border-radius: 50%;
+}
