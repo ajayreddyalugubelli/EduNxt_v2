@@ -1,13 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { Http, HttpModule} from '@angular/http';
 import { NvD3Module } from 'ng2-nvd3';
 // d3 and nvd3 should be included somewhere
 import 'd3';
 import 'nvd3';
 
 //font-awesome
-import { AngularFontAwesomeModule } from "angular-font-awesome";
+// import { AngularFontAwesomeModule } from "angular-font-awesome";
 
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
@@ -39,8 +39,8 @@ import { FeedbackComponent } from './analytics/learn-develop/glance/feedback/fee
   imports: [
     BrowserModule,
     NvD3Module,
-    AngularFontAwesomeModule
-  ],
+    HttpModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

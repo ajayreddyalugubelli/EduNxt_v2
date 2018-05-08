@@ -10,7 +10,7 @@ import {  } from "";
 @Component({
   selector: 'app-glance',
   templateUrl: './glance.component.html',
-  styleUrls: ['../../../../../node_modules/font-awesome/css/font-awesome.css', './glance.component.css']
+  styleUrls: ['./glance.component.css']
 })
 export class GlanceComponent implements OnInit {
 

@@ -1,0 +1,66 @@
+{
+        "activeUsers": {
+            "imageURL" : [
+                {
+                    "url" : "",
+                    "ifAnyOtherData" : ""
+                }
+            ],
+            "activeUsers": 325,
+            "changeInUsers": 65,
+            "peopleCurrentlyEnrolled": 15650,
+            "usersSinceLastMonth": 2135
+        },
+        "learnerEngagement": {
+            "peopleCompletedTraining": 1565,
+            "peopleChange": 65,
+            "chartData": [
+              {
+                "label": "iOS",
+                "value": 1100
+              },
+              {
+                "label": "Android",
+                "value": 8900
+              },
+              {
+                "label": "Other",
+                "value": 0
+              },
+              {
+                "label": "Windows CE",
+                "value": 0
+              }
+            ]
+        },
+        "learnerPace": {
+            "behindSchedule": 17565,
+            "haventStarted": 1987,
+            "chartData": [
+                {
+                    "label": "aheadOfSchedule",
+                    "value": 1100
+                },
+                {
+                    "label": "onTrack",
+                    "value": 8900
+                },
+                {
+                    "label": "behindSchedule",
+                    "value": 0
+                },
+                {
+                    "label": "haventStarted",
+                    "value": 0
+                }
+            ]
+        },
+        "feedback" : {
+            "learnerSatisfaction" : 60,
+            "learnerSatisfactionChange" : 5,
+            "trainerRating" : 4.5,
+            "trainerRatingChange" : 0.2,
+            "contentRating" : 4.6,
+            "contentRatingChange" :  5
+        }
+    }

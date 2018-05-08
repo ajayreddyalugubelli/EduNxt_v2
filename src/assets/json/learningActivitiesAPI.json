@@ -1,0 +1,31 @@
+{
+    "data": {
+        "activeUsers": {
+            "activeUsers": 567,
+            "changeInUsers": 356,
+            "peopleCurrentlyEnrolled": 23,
+            "usersSinceLastMonth": 32
+        },
+        "learnerEngagement": {
+            "peopleCompletedTraining": 5,
+            "peopleChange": 65
+        },
+        "learnerPace": {
+            "behindSchedule": 423,
+            "haventStarted": 125
+        },
+        "feedback": {
+            "learnerSatisfaction": 35,
+            "learnerSatisfactionChange": 70.5,
+            "trainerRating": 67,
+            "trainerRatingChange": 0,
+            "contentRating": 56.2,
+            "contentRatingChange": 23.7
+        }
+    },
+    "status": {
+        "type": "success",
+        "message": ""
+    },
+    "statusCode": 200
+}
