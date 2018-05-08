@@ -6,6 +6,8 @@ import { NvD3Module } from 'ng2-nvd3';
 import 'd3';
 import 'nvd3';
 
+//font-awesome
+import { AngularFontAwesomeModule } from "angular-font-awesome";
 
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
@@ -16,6 +18,8 @@ import { LearnDevelopComponent } from './analytics/learn-develop/learn-develop.c
 import { ActiveUsersComponent } from './analytics/learn-develop/glance/active-users/active-users.component';
 import { GlanceComponent } from './analytics/learn-develop/glance/glance.component';
 import { LearnerEngagementComponent } from './analytics/learn-develop/glance/learner-engagement/learner-engagement.component';
+import { LearnerPaceComponent } from './analytics/learn-develop/glance/learner-pace/learner-pace.component';
+import { FeedbackComponent } from './analytics/learn-develop/glance/feedback/feedback.component';
 
 
 @NgModule({
@@ -28,11 +32,14 @@ import { LearnerEngagementComponent } from './analytics/learn-develop/glance/lea
     LearnDevelopComponent,
     ActiveUsersComponent,
     GlanceComponent,
-    LearnerEngagementComponent
+    LearnerEngagementComponent,
+    LearnerPaceComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,
-    NvD3Module 
+    NvD3Module,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

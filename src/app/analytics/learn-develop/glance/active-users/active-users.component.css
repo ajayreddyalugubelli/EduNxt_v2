@@ -1,19 +1,10 @@
-.row{
-    margin: 0 !important;
-}
-.row [class^="col"]{
-    padding: 0 !important;
-}
-
-.row .col-md-3{
-    background-color: #fff;
-}
-.activeUsers img{
-    height: 80px;
-    width: 80px;
+.active-user img{
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    margin-left: -30px;
+    margin-left: -18px;
+    border: 1px solid #FFF;
 }
-.activeUsers img:first-child{
+.active-user img:first-child{
     margin-left: 0;
 }

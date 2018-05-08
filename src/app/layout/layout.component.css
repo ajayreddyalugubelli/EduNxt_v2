@@ -1,5 +1,6 @@
 .mainLayout{
     background-color: #EEE;
+    /* height: -webkit-fill-available; */
 }
 .headerComponent{
     height: 120px;
